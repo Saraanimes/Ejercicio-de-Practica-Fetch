@@ -24,5 +24,5 @@ fetch(DATA_URL)
     return response.json();
   })
   .then(data => {
-  showData(data.students);
+    showData(data.students);
   })
